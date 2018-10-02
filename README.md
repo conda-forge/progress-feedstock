@@ -14,9 +14,8 @@ Summary: Easy progress reporting for Python
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/progress-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/progress-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/progress-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/progress-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/progress-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/progress-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/progress-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/progress-feedstock)
 
 Current release info
 ====================
