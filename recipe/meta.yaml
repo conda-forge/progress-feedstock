@@ -1,7 +1,7 @@
 {% set name = "progress" %}
-{% set version = "1.3" %}
+{% set version = "1.5" %}
 {% set hash_type = "sha256" %}
-{% set hash_val = "c88d89ee3bd06716a0b8b5504d9c3bcb3c1c0ab98f96dc7f1dc5f56812a4f60a" %}
+{% set hash_val = "69ecedd1d1bbe71bf6313d88d1e6c4d2957b7f1d4f71312c211257f7dae64372" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 1000
+  number: 0
   noarch: python
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
