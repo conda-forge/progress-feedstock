@@ -1,5 +1,5 @@
 {% set name = "progress" %}
-{% set version = "1.5" %}
+{% set version = "1.6" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 69ecedd1d1bbe71bf6313d88d1e6c4d2957b7f1d4f71312c211257f7dae64372
+  sha256: c9c86e98b5c03fa1fe11e3b67c1feda4788b8d0fe7336c2ff7d5644ccfba34cd
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -36,7 +36,7 @@ about:
   license: ISC
   license_family: MIT
   license_file: LICENSE
-  summary: 'Easy progress reporting for Python'
+  summary: Easy progress reporting for Python
   doc_url: https://pypi.python.org/pypi/progress
   dev_url: https://github.com/verigak/progress
 
