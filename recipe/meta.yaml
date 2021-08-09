@@ -11,7 +11,7 @@ source:
   sha256: 69ecedd1d1bbe71bf6313d88d1e6c4d2957b7f1d4f71312c211257f7dae64372
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -44,3 +44,4 @@ extra:
   recipe-maintainers:
     - SoapZA
     - marcelotrevisani
+    - thewchan
