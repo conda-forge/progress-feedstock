@@ -121,4 +121,5 @@ Feedstock Maintainers
 
 * [@SoapZA](https://github.com/SoapZA/)
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
+* [@thewchan](https://github.com/thewchan/)
 
